@@ -100,7 +100,7 @@ def main():
         epoch_init = checkpoint['epoch']
         count = 5201*epoch_init
     else:
-        epoch_init=0    
+        epoch_init=0
 
     # define loss function (criterion) and optimizer
     criterion = nn.CrossEntropyLoss().cuda()
